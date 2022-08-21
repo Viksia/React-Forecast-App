@@ -1,0 +1,116 @@
+.weather-app-wrapper {
+  padding: 5px;
+  max-width: 680px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 5px 5px 20px 20px;
+  padding-bottom: 20px;
+  border: 1px solid #adb5bd;
+  border-radius: 7px;
+}
+
+h3 {
+  color: #0d6efd;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 2px 2px 0px 10px;
+}
+
+h1 {
+  color: #031633;
+  font-size: 60px;
+  padding-top: 10px;
+}
+h1 img {
+  margin: 0px;
+  margin-right: 5px;
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+
+h1 .units {
+  position: relative;
+  font-size: 18px;
+  top: -30px;
+}
+h1 .active {
+  color: #0d6efd;
+  cursor: default;
+}
+h1 .active:hover {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  color: #031633;
+  font-size: 16px;
+  font-weight: 600;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  margin: 0 5px;
+}
+
+li {
+  display: inline;
+  margin: 0 15px;
+  /*расстояние между пунктами по ширине*/
+}
+
+a {
+  text-decoration: none;
+  color: #031633;
+  /*убираем подчеркивание текста ссылок*/
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+button {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  margin: 0 15px;
+}
+#date {
+  font-weight: normal;
+}
+#description {
+  padding: 2px 2px 10px 10px;
+}
+
+#dopinf {
+  position: relative;
+  flex-wrap: wrap;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #031633;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+h4 {
+  color: #031633;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 2px 2px 10px 10px;
+}
+small a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.weather-forecast {
+  padding-top: 11px;
+}

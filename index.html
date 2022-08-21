@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>☀️ Wheather App</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container col-sm-6">
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <div class="row">
+                    <form class="form col-12" id="search-form">
+                        <div class="col-5">
+                            <input type="search" class="form-control" placeholder="Enter a city" aria-label="city"
+                                id="city-input" />
+                        </div>
+                        <div class="col-3 d-grid">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+
+                        <div class="col-3 d-grid">
+                            <button type="submit" class="btn btn-success" id="сurrent-location-button">
+                                Current
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="col-4">
+                        <h3 id="city">
+
+                        </h3>
+
+                        <h4>
+                            <span id="date">
+
+                            </span>
+                        </h4>
+
+                        <div id="description">
+                            Sunny
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="weather-forecast" id="forecast">
+
+                        </div>
+                    </div>
+
+
+                    <h1 class="col-7">
+                        <!--<img src="" alt="Clear" id="icon" class="float-left" /> Картинка из JS-->
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Cloudy" class="float-left">
+                        <!-- Фиктивная картинка -->
+
+                        <strong id="temperature">19</strong><span class="units"> ℃
+                            <!-- Фиктивные градусы -->
+                        </span>
+
+
+                    </h1>
+
+                    <div class="dopinformation col-4">
+                        <ul id="dopinf">
+                            <li>
+                                <b>Pressure:</b>
+                                <span id="pressure"> 78</span>p
+                            </li>
+                            <li>
+                                <b>Wind: </b>
+                                <span id="wind"> 4 </span>km/h
+                            </li>
+                            <li><b>Humidity: </b> <span id="humidity"> 77</span>%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <small>
+                <a href="https://github.com/Viksia/My-project" target="_blank">Open-source code</a>
+                by Viksy
+            </small>
+
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
