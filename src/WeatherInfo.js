@@ -9,7 +9,9 @@ export default function WeatherInfo(props) {
       <h1>{props.data.city}</h1>
       <ul>
         <li>
-          <FormattedDate date={props.data.date} />
+          <span>
+            <FormattedDate date={props.data.date} />
+          </span>
         </li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
@@ -27,8 +29,12 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-4">
           <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {Math.round(props.data.wind)} km/h</li>
+            <li>
+              <span>Humidity:</span> {props.data.humidity}%
+            </li>
+            <li>
+              <span>Wind:</span> {Math.round(props.data.wind)} km/h
+            </li>
           </ul>
         </div>
       </div>

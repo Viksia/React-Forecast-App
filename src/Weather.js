@@ -66,7 +66,7 @@ export default function Weather(props) {
         </div>
         <footer>
           <a
-            href="https://github.com/Viksia/My-project"
+            href="https://github.com/Viksia/React-Forecast-App"
             target="_blank"
             rel="noreferrer"
           >

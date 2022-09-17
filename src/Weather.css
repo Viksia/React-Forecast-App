@@ -10,6 +10,7 @@
   padding-bottom: 20px;
   border: 1px solid #adb5bd;
   border-radius: 7px;
+  background-color: #f3f4f7;
 }
 
 .Weather h1 {
@@ -63,4 +64,13 @@
 
 .Weather a {
   text-decoration: none;
+}
+
+.Weather li span {
+  color: black;
+  font-weight: 500;
+}
+
+.Weather .form-control {
+  border: 1px solid #adb5bd;
 }
